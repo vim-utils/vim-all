@@ -23,10 +23,10 @@ function! all#inside()
     call search('.')
     keepj norm! 0
   endif
-  keepj norm! vG$
+  keepj norm! vGg_
   if s:is_current_line_empty()
     call search('.', 'b')
-    keepj norm! $
+    keepj norm! g_
   endif
 endfunction
 
