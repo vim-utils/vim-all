@@ -4,7 +4,7 @@ Idiomatic vim text objects that work on the whole buffer.
 
 ### Text objects
 
-* `<Enter>` all lines
+* `<Enter>` all lines in the buffer
 * `a<Enter>` same as `<Enter>`, added for consistency
 * `i<Enter>` inside lines - all lines, except leading and trailing empty lines
 
@@ -42,6 +42,11 @@ This plugin brings you:
 
 * Pathogen<br/>
 `git clone git://github.com/bruno-/vim-all.git ~/.vim/bundle/vim-all`
+
+### Other
+
+[vim-textobj-entire](https://github.com/kana/vim-textobj-entire) seems to do the
+same thing, but has different mappings.
 
 ### License
 
