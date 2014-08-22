@@ -32,6 +32,7 @@ Contributing is welcome. Github repo:
 
 CHANGELOG					*all-changelog*
 
+	v0.0.2:	August 22, 2014		* Add <Enter> mapping
 	v0.0.1:	August 22, 2014		* Initial working version
 
 LICENSE						*all-license*
