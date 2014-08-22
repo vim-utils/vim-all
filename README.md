@@ -1,6 +1,6 @@
 # all.vim
 
-Text objects that work on the whole buffer.
+Idiomatic vim text objects that work on the whole buffer.
 
 ### Text objects
 
