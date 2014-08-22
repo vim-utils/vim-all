@@ -1,7 +1,7 @@
 " ============================================================================
 " File: all.vim
 " Author: Bruno Sutic
-" Version: 0.0.1
+" Version: 0.0.2
 " WebPage: https://github.com/bruno-/vim-all
 " ============================================================================
 
@@ -18,6 +18,7 @@ function! s:is_current_line_empty()
 endfunction
 
 function! all#inside()
+  mark '
   keepj norm! gg0
   if s:is_current_line_empty()
     call search('.')
@@ -31,6 +32,7 @@ function! all#inside()
 endfunction
 
 function! all#around()
+  mark '
   keepj norm! gg0vG$
 endfunction
 
