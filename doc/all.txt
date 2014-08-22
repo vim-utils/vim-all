@@ -1,0 +1,38 @@
+*all.txt*        idiomatic vim text objects that work on the whole buffer.
+
+Author: Bruno Sutic <https://www.github.com/bruno->
+
+INTRODUCTION					*all*
+
+This plugin provides idiomatic vim text objects that select the whole buffer.
+
+MAPS						*all-maps*
+
+						*all-a<Enter>* *all-a<CR>*
+a<Enter>	"all lines", select the whole buffer.
+		Equivalent to 'ggVG' + |operator|.
+
+						*all-i<Enter>* *all-i<CR>*
+i<Enter>	"inside lines", select the whole buffer except the leading
+		and trailing empty lines.
+
+						*g:all_default_mappings*
+To disable default maps, add the following to your vimrc:
+>
+  let g:all_default_mappings = 0
+<
+CONTRIBUTING					*all-contributing*
+
+Contributing is welcome. Github repo:
+
+  https://github.com/bruno-/vim-vertical-move
+
+CHANGELOG					*all-changelog*
+
+	v0.0.1:	August 22, 2014		* Initial working version
+
+LICENSE						*all-license*
+
+Copyright (c) Bruno Sutic. Distributed under the MIT license.
+
+ vim:tw=78:ts=8:ft=help:norl:
