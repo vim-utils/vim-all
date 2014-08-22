@@ -28,7 +28,7 @@ CONTRIBUTING					*all-contributing*
 
 Contributing is welcome. Github repo:
 
-  https://github.com/bruno-/vim-vertical-move
+  https://github.com/bruno-/vim-husk
 
 CHANGELOG					*all-changelog*
 
