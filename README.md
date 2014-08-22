@@ -4,15 +4,26 @@ Idiomatic vim text objects that work on the whole buffer.
 
 ### Text objects
 
-* `a<Enter>` all lines
+* `<Enter>` all lines
+* `a<Enter>` same as `<Enter>`, added for consistency
 * `i<Enter>` inside lines - all lines, except leading and trailing empty lines
 
 ### Examples
 
-* `va<Enter>` visually selects all lines in the buffer
-* `da<Enter>` deletes the whole buffer
-* `vi<Enter>` visually selects all non empty lines
-* `yi<Enter>` yanks all non empty lines
+**\<Enter>**
+
+* `v<Enter>` visually select all lines in the buffer
+* `c<Enter>` delete the whole buffer and start insert mode
+
+**a\<Enter>**
+
+* `ya<Enter>` yank all lines in the buffer
+* `da<Enter>` delete the whole buffer
+
+**i\<Enter>**
+
+* `vi<Enter>` visually select all non empty lines
+* `yi<Enter>` yank all non empty lines
 
 ### Why?
 

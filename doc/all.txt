@@ -8,9 +8,12 @@ This plugin provides idiomatic vim text objects that select the whole buffer.
 
 MAPS						*all-maps*
 
-						*all-a<Enter>* *all-a<CR>*
-a<Enter>	"all lines", select the whole buffer.
+						*all-<Enter>* *all-<CR>*
+<Enter>		"all lines", select the whole buffer.
 		Equivalent to 'ggVG' + |operator|.
+
+						*all-a<Enter>* *all-a<CR>*
+a<Enter>	Same as |all-<Enter>|.
 
 						*all-i<Enter>* *all-i<CR>*
 i<Enter>	"inside lines", select the whole buffer except the leading
