@@ -4,16 +4,10 @@ Idiomatic vim text objects that work on the whole buffer.
 
 ### Text objects
 
-* `<Enter>` all lines in the buffer
-* `a<Enter>` same as `<Enter>`, added for consistency
+* `a<Enter>` all lines in the buffer
 * `i<Enter>` inside lines - all lines, except leading and trailing empty lines
 
 ### Examples
-
-**\<Enter>**
-
-* `v<Enter>` visually select all lines in the buffer
-* `c<Enter>` delete the whole buffer and start insert mode
 
 **a\<Enter>**
 

@@ -1,7 +1,6 @@
 " ============================================================================
 " File: all.vim
 " Author: Bruno Sutic
-" Version: 0.0.2
 " WebPage: https://github.com/bruno-/vim-all
 " ============================================================================
 
@@ -46,8 +45,6 @@ if get(g:, 'all_default_mappings', 1)
   xmap <silent> i<CR> <Plug>(inside_all)
   omap <silent> a<CR> <Plug>(around_all)
   xmap <silent> a<CR> <Plug>(around_all)
-  omap <silent> <CR> <Plug>(around_all)
-  xmap <silent> <CR> <Plug>(around_all)
 endif
 
 let &cpo = s:save_cpo
