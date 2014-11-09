@@ -29,6 +29,7 @@ Contributing is welcome. Github repo:
 
 CHANGELOG					*all-changelog*
 
+	v1.0.0:	November 09, 2014	* Remove <Enter> mapping
 	v0.0.2:	August 22, 2014		* Add <Enter> mapping
 	v0.0.1:	August 22, 2014		* Initial working version
 
