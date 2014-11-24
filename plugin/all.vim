@@ -12,29 +12,6 @@ let g:loaded_all = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! s:is_current_line_empty()
-  return !len(getline('.'))
-endfunction
-
-function! all#inside()
-  mark '
-  keepj norm! gg0
-  if s:is_current_line_empty()
-    call search('.')
-    keepj norm! 0
-  endif
-  keepj norm! vGg_
-  if s:is_current_line_empty()
-    call search('.', 'b')
-    keepj norm! g_
-  endif
-endfunction
-
-function! all#around()
-  mark '
-  keepj norm! gg0vG$
-endfunction
-
 onoremap <silent> <Plug>(inside_all) :<C-U>call all#inside()<CR>
 xnoremap <silent> <Plug>(inside_all) :<C-U>call all#inside()<CR>
 onoremap <silent> <Plug>(around_all) :<C-U>call all#around()<CR>
